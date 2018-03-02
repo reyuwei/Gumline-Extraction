@@ -1,0 +1,350 @@
+﻿Build started 2018/3/2 16:25:23.
+     1>Project "E:\ToothSeg\trimesh_framework\trimesh_framework\trimesh_framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VisualStudio2013\VC\bin\CL.exe /c /IE:\ToothSeg\trimesh_framework\trimesh_framework\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt apparentridge.cc rtsc.cc src\GLCamera.cc src\ICP.cc src\KDtree.cc src\TriMesh_bounding.cc src\TriMesh_connectivity.cc src\TriMesh_curvature.cc src\TriMesh_grid.cc src\TriMesh_io.cc src\TriMesh_normals.cc src\TriMesh_pointareas.cc src\TriMesh_stats.cc src\TriMesh_tstrips.cc src\conn_comps.cc src\diffuse.cc src\edgeflip.cc src\faceflip.cc src\filter.cc src\lmsmooth.cc src\overlap.cc src\remove.cc src\reorder_verts.cc src\shared.cc src\subdiv.cc
+         apparentridge.cc
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(802): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(816): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(858): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(900): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(961): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1403): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1663): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+         rtsc.cc
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(802): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(816): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(858): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(900): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(961): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1403): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>E:\ToothSeg\trimesh_framework\trimesh_framework\include\GL/glui.h(1663): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(138): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(181): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(191): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(195): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(205): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(211): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(217): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(226): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(230): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(239): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(269): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(271): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(274): warning C4244: 'argument' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(314): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(330): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(353): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(359): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(374): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(390): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(417): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(423): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(437): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(453): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(474): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(476): warning C4018: '>' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(487): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(504): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(527): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(545): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(549): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(634): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(644): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(826): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(839): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(863): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(879): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(898): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(927): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(931): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(935): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(939): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(958): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(963): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(978): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(998): warning C4018: '<' : signed/unsigned mismatch
+     1>rtsc.cc(67): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>rtsc.cc(68): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>rtsc.cc(228): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(230): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(251): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(253): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(285): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>rtsc.cc(300): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>rtsc.cc(398): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(440): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>rtsc.cc(447): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(506): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(518): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(531): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(543): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>rtsc.cc(1541): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1571): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1578): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1584): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1589): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1592): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1596): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1601): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1605): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1619): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1625): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1627): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1641): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1647): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1660): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1666): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1670): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1699): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1703): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1712): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1716): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1721): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1725): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1745): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1747): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1762): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1768): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1778): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1782): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1791): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1795): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>rtsc.cc(1800): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>rtsc.cc(1839): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>rtsc.cc(2039): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>rtsc.cc(2040): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>rtsc.cc(2042): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>rtsc.cc(2123): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>rtsc.cc(2442): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>rtsc.cc(2478): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rtsc.cc(2482): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>rtsc.cc(2493): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(356) : see declaration of 'sprintf'
+     1>rtsc.cc(2546): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>rtsc.cc(2549): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>rtsc.cc(2552): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>rtsc.cc(2639): warning C4018: '<' : signed/unsigned mismatch
+         GLCamera.cc
+         ICP.cc
+         KDtree.cc
+         TriMesh_bounding.cc
+         TriMesh_connectivity.cc
+         TriMesh_curvature.cc
+         TriMesh_grid.cc
+         TriMesh_io.cc
+     1>src\TriMesh_io.cc(247): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>src\TriMesh_io.cc(250): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(168) : see declaration of 'strerror'
+     1>src\TriMesh_io.cc(294): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(371): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(373): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(382): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(393): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(434): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(447): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(453): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(473): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(508): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(527): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(699): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(705): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(711): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(717): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(723): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(746): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(752): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(766): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(797): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(304) : see declaration of 'sscanf'
+     1>src\TriMesh_io.cc(813): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(820): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1019): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1026): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1031): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1037): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1042): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1045): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1133): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1139): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1144): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1189): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1198): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1236): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1239): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(230) : see declaration of 'fscanf'
+     1>src\TriMesh_io.cc(1542): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(211) : see declaration of 'fopen'
+     1>src\TriMesh_io.cc(1545): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(168) : see declaration of 'strerror'
+     1>src\TriMesh_io.cc(1860): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>src\TriMesh_io.cc(2258): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+     1>src\TriMesh_io.cc(2285): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\VisualStudio2013\VC\include\stdio.h(337) : see declaration of 'vsnprintf'
+         TriMesh_normals.cc
+         TriMesh_pointareas.cc
+         TriMesh_stats.cc
+         TriMesh_tstrips.cc
+         conn_comps.cc
+         diffuse.cc
+         edgeflip.cc
+         faceflip.cc
+         filter.cc
+         lmsmooth.cc
+         Compiling...
+         overlap.cc
+         remove.cc
+         reorder_verts.cc
+         shared.cc
+         subdiv.cc
+       Link:
+         D:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ToothSeg\trimesh_framework\Release\trimesh_framework.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:E:\ToothSeg\trimesh_framework\trimesh_framework\lib /LIBPATH:C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\trimesh_framework\lib gluit.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\ToothSeg\trimesh_framework\Release\trimesh_framework.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ToothSeg\trimesh_framework\Release\trimesh_framework.lib" /MACHINE:X86 /SAFESEH Release\apparentridge.obj
+         Release\rtsc.obj
+         Release\conn_comps.obj
+         Release\diffuse.obj
+         Release\edgeflip.obj
+         Release\faceflip.obj
+         Release\filter.obj
+         Release\GLCamera.obj
+         Release\ICP.obj
+         Release\KDtree.obj
+         Release\lmsmooth.obj
+         Release\overlap.obj
+         Release\remove.obj
+         Release\reorder_verts.obj
+         Release\shared.obj
+         Release\subdiv.obj
+         Release\TriMesh_bounding.obj
+         Release\TriMesh_connectivity.obj
+         Release\TriMesh_curvature.obj
+         Release\TriMesh_grid.obj
+         Release\TriMesh_io.obj
+         Release\TriMesh_normals.obj
+         Release\TriMesh_pointareas.obj
+         Release\TriMesh_stats.obj
+         Release\TriMesh_tstrips.obj
+         Generating code
+         Finished generating code
+     1>gluit.lib(glui.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_add_controls.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_add_controls.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_window.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_window.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_callbacks.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_callbacks.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_state.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_state.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_display.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_display.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_rotation.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_rotation.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_init.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_init.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_control.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_control.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_spinner.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_spinner.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_main.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_main.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_panel.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_panel.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_font.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_font.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_cursor.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_cursor.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_bitmaps.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_bitmaps.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_node.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_node.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_radio.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_radio.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_translation.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_translation.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_column.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_column.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_separator.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_separator.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_slider.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_slider.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_listbox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_listbox.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_button.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_button.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_checkbox.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_checkbox.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_statictext.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_statictext.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_rollout.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_rollout.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_edittext.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_edittext.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_mouse_iaction.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_mouse_iaction.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_structure.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_structure.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_algebra3.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_algebra3.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_arcball.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_arcball.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_joystick.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_joystick.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_menu.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_menu.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_font_data.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_font_data.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_stroke_roman.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_stroke_roman.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(freeglut_stroke_mono_roman.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_bitmap_img_data.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_bitmap_img_data.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+     1>gluit.lib(glui_quaternion.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'gluit.lib(glui_quaternion.obj)' or at 'E:\ToothSeg\trimesh_framework\Release\vc120.pdb'; linking object as if no debug info
+         trimesh_framework.vcxproj -> E:\ToothSeg\trimesh_framework\Release\trimesh_framework.exe
+     1>Done Building Project "E:\ToothSeg\trimesh_framework\trimesh_framework\trimesh_framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:05.89

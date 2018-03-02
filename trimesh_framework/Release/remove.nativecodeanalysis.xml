@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<DEFECTS><DEFECT><SFA><FILEPATH>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\src\</FILEPATH><FILENAME>remove.cc</FILENAME><LINE>0</LINE><COLUMN>0</COLUMN></SFA><DEFECTCODE>6993</DEFECTCODE><DESCRIPTION>Code analysis ignores OpenMP constructs; analyzing single-threaded code.</DESCRIPTION><FUNCTION></FUNCTION><DECORATED></DECORATED><FUNCLINE>0</FUNCLINE><PATH/></DEFECT></DEFECTS>

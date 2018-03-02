@@ -1,0 +1,168 @@
+﻿Build started 2017/3/14 13:30:36.
+     1>Project "C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\trimesh_framework\trimesh_framework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /Qpar /fp:precise /Zc:wchar_t /Zc:forScope /openmp /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt rtsc.cc
+         rtsc.cc
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(802): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(816): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(858): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(900): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(961): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1005): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1303): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1403): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1498): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\include\gl\glui.h(1663): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(125): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(168): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(178): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(182): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(192): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(198): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(204): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(213): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(217): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(226): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(238): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(278): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(301): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(307): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(322): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(338): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(365): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(371): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(385): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(401): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(422): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(424): warning C4018: '>' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(435): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(452): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(475): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(493): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(497): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(583): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(592): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(737): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(769): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(780): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(802): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(818): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(836): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(907): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\tooth_seg.h(918): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(67): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(68): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(137): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(239): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(241): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(262): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(264): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(296): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(311): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(409): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(451): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(458): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(517): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(529): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(542): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(554): warning C4305: 'argument' : truncation from 'double' to 'GLfloat'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1552): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1582): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1589): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1595): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1600): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1603): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1607): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1612): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1616): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1630): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1636): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1638): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1652): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1658): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1671): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1677): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1681): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1710): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1714): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1723): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1727): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1732): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1736): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1756): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1758): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1773): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1779): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1789): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1793): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1802): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1806): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1811): warning C4305: 'argument' : truncation from 'double' to 'const float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(1850): warning C4305: 'argument' : truncation from 'double' to 'GLclampf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2050): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2051): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2053): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2134): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2453): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2489): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2493): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2504): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2557): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2560): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2563): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\dell\desktop\toothseg\trimesh_framework\trimesh_framework\rtsc.cc(2647): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\Debug\trimesh_framework.exe" /INCREMENTAL /NOLOGO /LIBPATH:.\lib gluitdd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\Debug\trimesh_framework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\Debug\trimesh_framework.lib" /MACHINE:X86 Debug\apparentridge.obj
+         Debug\rtsc.obj
+         Debug\conn_comps.obj
+         Debug\diffuse.obj
+         Debug\edgeflip.obj
+         Debug\faceflip.obj
+         Debug\filter.obj
+         Debug\GLCamera.obj
+         Debug\ICP.obj
+         Debug\KDtree.obj
+         Debug\lmsmooth.obj
+         Debug\overlap.obj
+         Debug\remove.obj
+         Debug\reorder_verts.obj
+         Debug\shared.obj
+         Debug\subdiv.obj
+         Debug\TriMesh_bounding.obj
+         Debug\TriMesh_connectivity.obj
+         Debug\TriMesh_curvature.obj
+         Debug\TriMesh_grid.obj
+         Debug\TriMesh_io.obj
+         Debug\TriMesh_normals.obj
+         Debug\TriMesh_pointareas.obj
+         Debug\TriMesh_stats.obj
+         Debug\TriMesh_tstrips.obj
+         trimesh_framework.vcxproj -> C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\Debug\trimesh_framework.exe
+     1>Done Building Project "C:\Users\Dell\Desktop\ToothSeg\trimesh_framework\trimesh_framework\trimesh_framework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26
